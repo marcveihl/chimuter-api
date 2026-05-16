@@ -1,0 +1,61 @@
+[
+  {
+    "id": "cortland-upnw",
+    "name": "Cortland / Ashland ↔ UP-NW",
+    "status": "active",
+    "morning": {
+      "feeders": [
+        { "route": "9", "type": "bus", "stop_id": "17180", "ride_min": 5 },
+        { "route": "X9", "type": "bus", "stop_id": "17180", "ride_min": 3 }
+      ],
+      "transfer": { "walk_min": 6, "buffer_min": 5 },
+      "metra": { "line": "UP-NW", "station": "Cortland", "direction": "outbound" }
+    },
+    "evening": {
+      "feeders": [
+        { "route": "9", "type": "bus", "stop_id": "17180", "ride_min": 5 },
+        { "route": "X9", "type": "bus", "stop_id": "17180", "ride_min": 3 }
+      ],
+      "transfer": { "walk_min": 6, "buffer_min": 5 },
+      "metra": { "line": "UP-NW", "station": "Cortland", "direction": "inbound" }
+    }
+  },
+  {
+    "id": "placeholder-bnsf",
+    "name": "Western Ave ↔ BNSF Halsted",
+    "status": "placeholder",
+    "morning": {
+      "feeders": [
+        { "route": "49", "type": "bus", "stop_id": "TODO", "ride_min": 10 }
+      ],
+      "transfer": { "walk_min": 5, "buffer_min": 5 },
+      "metra": { "line": "BNSF", "station": "Halsted", "direction": "outbound" }
+    },
+    "evening": {
+      "feeders": [
+        { "route": "49", "type": "bus", "stop_id": "TODO", "ride_min": 10 }
+      ],
+      "transfer": { "walk_min": 5, "buffer_min": 5 },
+      "metra": { "line": "BNSF", "station": "Halsted", "direction": "inbound" }
+    }
+  },
+  {
+    "id": "placeholder-brown-upnw",
+    "name": "Brown Line ↔ UP-NW Clybourn",
+    "status": "placeholder",
+    "morning": {
+      "feeders": [
+        { "route": "Brn", "type": "train", "stop_id": "TODO", "ride_min": 8 }
+      ],
+      "transfer": { "walk_min": 4, "buffer_min": 5 },
+      "metra": { "line": "UP-NW", "station": "Clybourn", "direction": "outbound" }
+    },
+    "evening": {
+      "feeders": [
+        { "route": "Brn", "type": "train", "stop_id": "TODO", "ride_min": 8 }
+      ],
+      "transfer": { "walk_min": 4, "buffer_min": 5 },
+      "metra": { "line": "UP-NW", "station": "Clybourn", "direction": "inbound" }
+    }
+  }
+]
